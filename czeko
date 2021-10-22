@@ -1,0 +1,16 @@
+#include <iostream>                                                             
+                                                                                
+int main()                                                                      
+{                                                                               
+    uint32_t m,n,k;                                                             
+
+    std::cin >> m >> n;                                                         
+
+
+    std::cin >> k;                                                              
+        if (k%m==0 || k%n==0)                                                   
+    std::cout << "TAK";                                                         
+        else                                                                    
+            std::cout << "NIE";                                                 
+                                                                                
+}
