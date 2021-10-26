@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+#include <cmath>
+#define M_PI 3,1415926535
+int main()
+{
+    for (int x = 0; x <= 10; x++)
+    {
+        double f1, f2, f3;
+        f1 = 1.0 / x;
+        f2 = log10(x);
+        f3 = sin(x / 20.0 * 2 * M_PI);
+        std::cout << setw(3) << x;
+        std::cout << setw(10) << f1;
+        std::cout << setw(10) << f2;
+        std::cout << setw(10) << f3;
+    }
+}
